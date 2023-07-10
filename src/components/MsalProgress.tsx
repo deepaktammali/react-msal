@@ -21,7 +21,7 @@ const MsalProgress = () => {
         return "loading";
       }
     }
-  }, []);
+  }, [inProgress]);
 
   return (
     <main className="flex flex-col justify-between items-center">
